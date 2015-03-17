@@ -12,7 +12,6 @@ body {
 h2 {
 	font-weight: 400;
 	font-size: 30px;
-	margin-bottom: 20px;
 	margin-top: 100px;
 	color:#2f3e3f;
 }
@@ -36,18 +35,20 @@ h3{
 .top_header h1 a{
 	margin-top: 20px;
 	margin-bottom: 20px;
-	width: 33%;
+	margin-right: 545px;
 	float: left;
 	text-decoration: none;
+	text-align: left;
 	color:#828c8c;
 }
 .top_header a {
 	margin-top: 40px;
 	margin-bottom: 20px;
-	width: 33%;
+	margin-left: 10px;
 	float: left;
 	text-decoration: none;
-	color:#828c8c;	
+	color:#828c8c;
+	text-align: right;	
 }
 .top_header{
 	background-color:#2f3e3f; 
@@ -69,11 +70,12 @@ h3{
 
 /*#########################Header Nav####################*/
 header nav ul li {
-	min-width: 16%;
+	padding-right: 30px;
 	float:left;
 	text-align: center;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	text-align: center;
 }
 header nav a{
 	text-decoration: none;
@@ -83,11 +85,27 @@ header nav a{
 header nav a:hover{
 	color:#b4c828; 
 }
+header nav ul{
+	margin-left:170px;
+}
 /*#########################Shop_Prev####################*/
 .shop_prev ul li{
 	width: 33%;
 	float: right;
-	margin-top: 80px;
+	margin-top: 70px;
+	position: relative;
+}
+.shop_prev ul li h4 {
+	position: absolute;
+	bottom: 0; left:0; right:0;
+	color:	#828c8c;
+	height: 30px;
+	background-color:#2f3e3f;
+	width:275px;
+	text-align: center;
+	border-radius-top: 30%;
+	padding-top:5px;
+	font-size: 20px;     
 }
 
 /*#########################process####################*/
@@ -103,13 +121,39 @@ header nav a:hover{
 .sale ul li {
 	float: right;
 	width: 25%;
-	
+	position: relative;
+	margin-top: 20px;	
 }
 
+.sale ul li h4 {
+	position: absolute;
+	bottom: 0; left:0; right:0;
+	color:	#828c8c;
+	height: 30px;
+	background-color:#b4c828;
+	width:230px;
+	text-align: center;
+	border-radius-top: 30%;
+	padding-top:5px;
+	font-size: 20px;   
+}
 .theaser ul li {
 	float: right;
 	width: 25%;
-	
+	position: relative;
+	margin-top: 20px;		
+}
+.theaser ul li h4 {
+	position: absolute;
+	bottom: 0; left:0; right:0;
+	color:	#828c8c;
+	height: 30px;
+	background-color:#b4c828;
+	width:230px;
+	text-align: center;
+	border-radius-top: 30%;
+	padding-top:5px;
+	font-size: 20px;     
 }
 /*#########################4 cols####################*/
 footer{
