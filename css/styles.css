@@ -259,7 +259,7 @@ h5 {
 	font-size: 18px;
 
 }
-button{
+button {
 	
 	background-color:#b4c828;
 	width: 185px;
@@ -268,19 +268,28 @@ button{
 	margin-top: 10px;
 	font-size:18px;
 }
-button:hover{
-	background-color:#b4c828;
-	width: 185px;
-	height: 30px;
-	color:white;
-	margin-top: 10px;
-	font-size:18px;
 
-}
 input {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+.shoppingcart ul{
+
+
+}
+.shoppingcart_form ul li{
+	float:left;
+	margin-top:70px;
+	margin-right: 10px;
+}
+.shoppingcart_form ul li:first-child{
+	margin-top: 20px;
+}
+.shop_wrapper{
+	border-bottom: 1px solid #2f3e3f;
+	width:550px;
+	float:right;
+} 
 
 /*##############################Helper##################################*/
 
