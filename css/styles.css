@@ -257,6 +257,7 @@ h5 {
 .checkout_wrapper{
 	width: 320px;
 	font-size: 18px;
+	margin-right: 0px;
 
 }
 button {
@@ -288,7 +289,7 @@ input {
 .shop_wrapper{
 	border-bottom: 1px solid #2f3e3f;
 	width:550px;
-	float:right;
+	float:left;
 } 
 
 /*##############################Helper##################################*/
