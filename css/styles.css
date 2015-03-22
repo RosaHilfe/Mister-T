@@ -7,7 +7,8 @@
 #########################Base Style####################*/
 body {
 	font-family: 'Exo 2', sans-serif;
-	font-weight: 400; 
+	font-weight: 400;
+	background: url('../images/grunge_wall.png'); 
 }
 h2 {
 	font-weight: 400;
@@ -25,13 +26,7 @@ h3{
 }
 
 /*#########################Header####################*/
-.login {
-	margin-top: 40px;
-	margin-bottom: 20px;
-	width: 33%;
-	float: left;
-	color:#828c8c;
-}
+
 .top_header h1 a{
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -66,22 +61,7 @@ h3{
 .top_header .shopping_cart:hover {
 	background-position: -300px -46px;
 }
-
-.login ul:after{
-    display: block;
-    font-size: 0;
-    height: 0;
-    visibility: hidden;
-}
-.login ul li:hover > ul {
-    visibility: visible;
-}
-.login ul li ul{
-    display: inline;
-    visibility: hidden;
-    position: absolute;
-}    
-
+    
 /*#########################Header Nav####################*/
 header nav ul li {
 	padding-right: 30px;
@@ -239,7 +219,71 @@ margin-left:5px;
 .sozialicon .icon-pinterest:hover { 
 	background-position: -100px -51px; 
 }
+/*##############################checkout_ph1##################################*/
+.checkout_header ul li{
+	float:left;
+}
+.checkout_header ul h5{
+margin-top: 100px;	
+}
+.checkout_header li:first-child{
+	margin-right:160px;
+	padding-left: 50px;
+}
+
+.checkout_header li:last-child{
+	margin-left:188px;
+}
+h5 {
+	font-weight: 300;
+	font-size: 18px;
+	margin-top: 10px;
+}
+.breadcrumps ul li {
+	float: right;
+	padding-right: 220px;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+ 
+.dot{
+	display:inline-block;
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	background-color: #b4c828;
+}
+
+.checkout_wrapper{
+	width: 320px;
+	font-size: 18px;
+
+}
+button{
+	
+	background-color:#b4c828;
+	width: 185px;
+	height: 30px;
+	color:white;
+	margin-top: 10px;
+	font-size:18px;
+}
+button:hover{
+	background-color:#b4c828;
+	width: 185px;
+	height: 30px;
+	color:white;
+	margin-top: 10px;
+	font-size:18px;
+
+}
+input {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 /*##############################Helper##################################*/
+
 
 
 .wrapper{
