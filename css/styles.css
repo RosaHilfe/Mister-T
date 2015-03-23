@@ -112,13 +112,13 @@ h3{
 {
 	display:block
 }
-.button_continue{
+.button_login{
 	background-color:#b4c828;
 	width: 130px;
 	height: 25px;
 	color:white;
 	margin-top: 15px;
-	font-size:18px;
+	font-size:16px;
 	margin-bottom: 15px;
 }
 /*#########################Header Nav####################*/
