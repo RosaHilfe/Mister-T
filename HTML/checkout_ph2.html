@@ -25,40 +25,34 @@
 		<div class="bread_line2"></div>
 	</div>
 	<div class="wrapper">
-		<div class="checkout_wrapper clearfix">	
-			<div class="register">
-				<h5>Register</h5>
-				<form action="register" method="post"></br>
-					<label>E-Mail:</br>
-					<input type="email" /></label></li></br>
-					<label>Passwort
-					</br>
-					<input type="password" name="passworteingabefeld" size="29"maxlength="20" 
-					placeholder="Bitte Passwort eingeben" /></label></li></br>
-					<label>Passwort wiederholung
-					</br>
-					<input type="password_wh" name="passworteingabefeld-wh" size="29"maxlength="20" 
-					placeholder="Bitte Passwort widerholen" /></label></li><br>
-					 <button class="button_sub" type="submit" id="register_submit" name="register_submit">Register</button></br>		
-				</form>
+		<div class ="payment">
+			<input type="radio" name="creditcard" value="creditcard" checked /><strong>Creditcard</strong><br/>
+			<input type="text" name="cardholder" size="20" maxlength="20" 
+			placeholder="Cardholder" ></br>
+			<input type="number" name="numb_credit" size="20" maxlength="20" 
+			placeholder="Creditcardnumber" ></br>
+			<p>Valid</p>
+			<select name="1" size="1">
+				 <option>1</option> 				
+				 <option>2</option>
+				 <option>3</option>
+				 <option>4</option>
+				 <option>5</option>
+			</select>
+			<select name="1" size="1">
+				 <option>1</option> 				
+				 <option>2</option>
+				 <option>3</option>
+				 <option>4</option>
+				 <option>5</option>
+			</select>
+			</br>
+			<input type="number" name="SVC" size="20" maxlength="20" 
+			placeholder="SVC" ></br>
+			<input type="radio" name="paypal" value="paypal"><strong>Paypal</strong><br/>	
+			<input type="radio" name="On Delivery" value="On Delivery" ><strong>On Delivery</strong<br/>
+			<p>For this kind of payment method we charge an additional fee of € 4,50.</p>		
 			</div>
-			<div class="express_check_out">
-				<h5>Express check out</h5>
-				<form action="express_check_out" method="post">
-				<button class="button_sub" type="submit" id="express_check-out_submit" name="express_check-out_submit">Express Checkout</button></br>
-			</div>
-			<div class="login">
-				<h5>Login</h5></br>
-				<form action="login" method="post">
-					<label>E-Mail:</br>	
-					<input type="email" /></label></li></br>
-					<label>Passwort</br>
-					<input type="password" name="passworteingabefeld" size="29" maxlength="30" 
-						placeholder="Bitte Passwort eingeben" /></label></li></br>
-					<button class="button_sub" type="submit" id="login_submit" name="login_submit">Login</button></br>	
-				</form>
-			</div>
-		</div>	
 		<div class ="shop_wrapper  clearfix">
 			<h5>Your<strong> Shoppingcart</strong></h5>
 			<div class ="shoppingcart_form clearfix">

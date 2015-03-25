@@ -37,9 +37,9 @@ h3{
 	color:#828c8c;
 }
 .top_header a {
-	margin-top: 20px;
+	margin-top: 8px;
 	margin-bottom: 20px;
-	margin-left: 10px;
+	margin-left: 34px;
 	float: left;
 	text-decoration: none;
 	color:#828c8c;
@@ -53,6 +53,9 @@ h3{
 	height: 50px;
 	width: 50px;
 	background: url('../images/sprite.png') no-repeat;
+	margin-left: 100px;
+}
+.shopping_cart a{
 	float: right;
 }
 .top_header .shopping_cart {
@@ -73,6 +76,7 @@ h3{
 	color:white;
 	font-weight:300;
 	font-size:18px;
+	margin-top:30px;
 }
 
 .login ul li
@@ -147,14 +151,21 @@ header nav ul{
 	float: right;
 	margin-top: 70px;
 	position: relative;
+	padding:0;
+}
+.shop_prev ul li:first-child{
+
+}
+.shop_prev ul li:last-child{
+margin-right: 0px;
 }
 .shop_prev ul li h4 {
 	position: absolute;
 	bottom: 0; left:0; right:0;
 	color:	white;
 	height: 30px;
-	background-color:#2f3e3f;
-	width:275px;
+	background-color: #b4c828;
+	width:313px;
 	text-align: center;
 	border-radius-top: 30%;
 	padding-top:5px;
@@ -306,13 +317,25 @@ h5 {
 }
  
 .dot{
-	display:inline-block;
 	height: 35px;
 	width: 35px;
 	border-radius: 50%;
 	background-color: #b4c828;
 }
-
+.bread_line1{
+  background-color: #2f3e3f;
+  height: 2px;
+  width: 225px;
+  margin-left: 388px;
+  margin-top: -67px;
+}
+.bread_line2{
+  background-color: #2f3e3f;
+  height: 2px;
+  width: 225px;
+  margin-left: 644px;
+  margin-top: -3px;
+}
 .checkout_wrapper{
 	width: 320px;
 	font-size: 18px;
@@ -334,29 +357,59 @@ input {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+.shoppingcart_form ul{
+	background: url('../images/sprite.png');
+
+	
+}
+#delete{
+	background-position: -100 0;
+	
+}
 
 .shoppingcart_form ul li{
 	float:left;
 	margin-top:70px;
-	margin-right: 10px;
+	margin-right: 24px;
 }
 .shoppingcart_form ul li:first-child{
 	margin-top: 20px;
+	margin-right: 27px;
+}
+.shoppingcart_form ul li:last-child{
+	margin-right: 10px;
 }
 .shop_wrapper{
 	border-bottom: 1px solid #2f3e3f;
 	width:590px;
 	float:right;
+
 } 
 .shop_bill {
 	float: right;
 	margin-top: 50px;
+	margin-right: 24px
 }
 .shop_bill p{
 	line-height: 30px;
 
 }
+.shop_bill .button_sub{
+	margin-left: 29px;
+}
+/*##############################checkout_ph3##################################*/
+.payment{
+	width: 320px;
+	font-size: 18px;
+	margin-right: 0px;
+	float:left;
+	margin-top: 5px;
 
+}
+.payment p{
+font-weight: 300;
+font-size: 16px;
+}
 /*##############################Helper##################################*/
 
 
