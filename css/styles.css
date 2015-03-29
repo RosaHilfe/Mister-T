@@ -8,7 +8,7 @@
 body {
 	font-family: 'Exo 2', sans-serif;
 	font-weight: 400;
-	background: url('../images/grunge_wall.png'); 
+	background: url('../images/grunge_wall.png');
 }
 h2 {
 	font-weight: 400;
@@ -46,7 +46,7 @@ h3{
 	text-align: right;	
 }
 .top_header{
-	background-color:#2f3e3f;
+  background-image: url("../Images/header_bg.png");
 }
 .shopping_cart {
 	display: block;
@@ -144,6 +144,9 @@ header nav a:hover{
 }
 header nav ul{
 	margin-left:170px;
+}
+.nav_bg {
+	background-color: white;
 }
 /*#########################Shop_Prev####################*/
 .shop_prev ul li{
@@ -327,23 +330,24 @@ h5 {
   background-color: #2f3e3f;
   height: 2px;
   width: 225px;
-  margin-left: 388px;
+  margin-left: 227px;
   margin-top: -67px;
 }
 .bread_line2{
   background-color: #2f3e3f;
   height: 2px;
   width: 225px;
-  margin-left: 644px;
+  margin-left: 481px;
   margin-top: -3px;
 }
 .checkout_wrapper{
-	width: 320px;
+	width: 300px;
 	font-size: 18px;
 	margin-right: 0px;
 	float:left;
 
 }
+
 button {
 	
 	background-color:#b4c828;
@@ -403,17 +407,28 @@ input {
 }
 /*##############################checkout_ph3##################################*/
 .payment{
-	width: 320px;
+	width: 280px;
 	font-size: 18px;
 	margin-right: 0px;
 	float:left;
 	margin-top: 5px;
+	margin-right: 20px;
 
 }
 .payment p{
 font-weight: 400;
 font-size: 16px;
 }
+h6 {transform: rotate(-90deg);
+	width: 30px;
+	float:left;
+	margin-top: 315px;
+	font-size: 70px;
+	margin-right: 40px;
+	color:#828c8c;
+}
+
+
 /*##############################Helper##################################*/
 
 
