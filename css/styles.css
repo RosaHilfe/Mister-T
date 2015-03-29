@@ -358,20 +358,23 @@ input {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
-.shoppingcart_form ul{
-	background: url('../images/sprite.png');
 
-	
+.shoppingcart_form .btn {
+	background-position: -140px -12px;
 }
-#delete{
-	background-position: -100 0;
-	
+.shoppingcart_form a{
+	background: url('../images/sprite.png');
+	display: block;
+	height: 50px;
+	width: 50px; 
 }
 
 .shoppingcart_form ul li{
 	float:left;
 	margin-top:70px;
-	margin-right: 24px;
+	margin-right: 60px;
+
+	display:block;
 }
 .shoppingcart_form ul li:first-child{
 	margin-top: 20px;

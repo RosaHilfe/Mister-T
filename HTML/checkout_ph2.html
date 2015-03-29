@@ -28,9 +28,9 @@
 		<div class ="payment clearfix">
 			<input type="radio" name="creditcard" value="creditcard" checked /><strong>Creditcard</strong><br/>
 			<input type="text" name="cardholder" size="20" maxlength="20" 
-			placeholder="Cardholder" ></br>
-			<input type="number" name="numb_credit" size="20" maxlength="20" 
-			placeholder="Creditcardnumber" ></br>
+			placeholder="Cardholder" ><br />
+			<input type="number" name="numb_credit" size="20" 
+			placeholder="Creditcardnumber" ><br/>
 			<p>Valid</p>
 			<select name="1" size="1">
 				 <option>1</option> 				
@@ -46,18 +46,18 @@
 				 <option>4</option>
 				 <option>5</option>
 			</select>
-			</br>
-			<input type="number" name="SVC" size="20" maxlength="20" 
-			placeholder="SVC" ></br>
-			<input type="radio" name="paypal" value="paypal"><strong>Paypal</strong><br/>	
-			<input type="radio" name="On Delivery" value="On Delivery" ><strong>On Delivery</strong<br/>
+			<br />
+			<input type="number" name="SVC" size="20" 
+			placeholder="SVC" ><br />
+			<input type="radio" name="paypal" value="paypal"><strong>Paypal</strong><br />	
+			<input type="radio" name="On Delivery" value="On Delivery" ><strong>On Delivery</strong><br />
 			<p>For this kind of payment method we charge an additional fee of € 4,50.</p>		
 			</div>
 			<div class ="shop_wrapper  clearfix">
 			<h5>Your<strong> Shoppingcart</strong></h5>
 			<div class ="shoppingcart_form clearfix">
 			 	<ul>
-				 	<li><img src="../Images/shoppingcart.png" alt="shirt theaser"></li>
+				 	<li><img src="../Images/shoppingcart.png" alt="shrit theaser"></li>
 				 	<li>Hippster</li>
 				 	<li>24,90</li>
 				 	<li><select name="1" size="1">
@@ -70,7 +70,8 @@
 					</li>
 				 	
 				 	<li><form action="test.php" method="post"> 
-				 		<button class="button_delete" type="delet" id="delete"name="delete">delete</button></br></form></li>
+				 		<a href="#" class="btn" title="delete"></a>
+				 		</form></li>
 				 	<li>49,80</li>
 				 </ul>
 			</div>
@@ -89,7 +90,7 @@
 				</li>
 			 	
 			 	<li><form action="test.php" method="post"> 
-			 		<button class="button_delete" type="delet" id="delete"name="delete">delete</button></br></form></li>
+			 		<a href="#" class="btn" title="delete"></a></form></li>
 			 	<li>49,80</li>
 			 </ul>
 		</div>
@@ -99,7 +100,7 @@
 				<p>Mwst20% 9,72</p>
 				<h4>Summe Total 49,80</h4>
 			<form action="test.php" method="post"> 	
-			<button class="button_sub" type="submit" id="continue_submit" name="continue_submit">Continue</button></br>
+			<button class="button_sub" type="submit" id="continue_submit" name="continue_submit">Continue</button><br />
 			</form>
 		</div>
 	</div>	
