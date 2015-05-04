@@ -24,6 +24,13 @@ h3{
 	padding-top: 65px;
 	color:white;
 }
+.circle{
+  background: url('../Images/bg_circle.png')no-repeat;
+  display: inline-block;
+  width: 220px;
+  height: 48px;
+  padding-top: 13px;
+}
 
 /*#########################Header####################*/
 
@@ -31,6 +38,7 @@ h3{
 	margin-top: 20px;
 	margin-bottom: 20px;
 	margin-right: 545px;
+	margin-left: 0;
 	float: left;
 	text-decoration: none;
 	text-align: left;
@@ -75,8 +83,8 @@ h3{
 	display:block;
 	color:white;
 	font-weight:300;
-	font-size:18px;
-	margin-top:30px;
+	font-size:16px;
+	margin-top:32px;
 }
 
 .login ul li
@@ -136,14 +144,16 @@ header nav ul li {
 }
 header nav a{
 	text-decoration: none;
-	font-size: 30px;
+	font-size: 20px;
 	color:#2f3e3f;
 }
 header nav a:hover{
 	color:#b4c828; 
 }
-header nav ul{
-	margin-left:170px;
+
+header nav ul {
+  margin: auto;
+  width: 532px;
 }
 .nav_bg {
 	background-color: white;
@@ -152,13 +162,11 @@ header nav ul{
 .shop_prev ul li{
 	width: 33%;
 	float: right;
-	margin-top: 70px;
+	margin-top: 20px;
 	position: relative;
 	padding:0;
 }
-.shop_prev ul li:first-child{
 
-}
 .shop_prev ul li:last-child{
 margin-right: 0px;
 }
