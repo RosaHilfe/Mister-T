@@ -231,6 +231,21 @@ margin-right: 0px;
   font-size: 20px;
   padding-left: 16px;
 }
+/*#########################about####################*/
+
+.col_1{
+	width:47%;
+	float: left;
+	padding-left: 5px;
+	padding-bottom: 20px;
+}
+.col_2{
+	width:47%;
+	float: left;
+	padding-left: 5px;
+	padding-bottom: 20px;
+}
+
 /*#########################footer####################*/
 footer{
 	background-image: url('../Images/footer_bg.png');
