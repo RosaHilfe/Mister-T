@@ -232,6 +232,40 @@ margin-right: 0px;
   padding-left: 16px;
 }
 /*#########################about####################*/
+.dude1 img{
+	border:5px solid #b4c828;
+	border-radius: 50%;
+	float:left;
+	margin-left: 65px;
+	position: relative;
+	z-index:10;
+	margin-top: -150px;
+}
+.dude2 img{
+	border:5px solid #b4c828;
+	border-radius: 50%;
+	float: right;
+	margin-right: 65px;
+	position: relative;
+	z-index:10;
+	margin-top: -150px;
+}
+.circle_2{
+
+	background: url('../Images/rundesdings_smal.png')no-repeat;
+  	display: inline-block;
+  	width: 220px;
+  	height: 45px;
+  	padding-top: 50px;
+}
+.green{
+	color:#b4c828;
+	display: inline;
+}
+.header_img_about{
+	position: relative;
+	z-index:5;
+}
 
 .col_1{
 	width:47%;
@@ -241,7 +275,7 @@ margin-right: 0px;
 }
 .col_2{
 	width:47%;
-	float: left;
+	float: right;
 	padding-left: 5px;
 	padding-bottom: 20px;
 }
