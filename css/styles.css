@@ -31,8 +31,9 @@ h3{
   height: 48px;
   padding-top: 13px;
 }
-
+/*####################################################*/
 /*#########################Header####################*/
+/*####################################################*/
 
 .top_header h1 a{
 	margin-top: 20px;
@@ -71,15 +72,16 @@ h3{
 }
 .top_header .shopping_cart:hover {
 	background-position: -300px -46px;
-}	
-/*#########################login####################*/
-.login ul
-{
+}
+/*####################################################*/	
+/*#########################login######################*/
+/*####################################################*/
+
+.login ul{
 	padding-top: 25px
 }
 
-.login ul a
-{
+.login ul a{
 	display:block;
 	color:white;
 	font-weight:300;
@@ -87,17 +89,14 @@ h3{
 	margin-top:32px;
 }
 
-.login ul li
-{
+.login ul li{
 	position:relative;
 	float:left;
 	margin:0;
 	padding:0
 }
 
-
-.login ul ul
-{
+.login ul ul{
 	display:none;
 	position:absolute;
 	top:100%;
@@ -110,18 +109,13 @@ h3{
 	border-radius: 10%;
 }
 
-.login ul ul li
-{
+.login ul ul li{
 	float:none;
 	width:155px;
 	color:white;
 	text-align: center;
 }
-
-
-
-.login ul li:hover > ul
-{
+.login ul li:hover > ul{
 	display:block
 }
 .button_login{
@@ -133,7 +127,10 @@ h3{
 	font-size:16px;
 	margin-bottom: 15px;
 }
-/*#########################Header Nav####################*/
+/*########################################################*/
+/*#########################Header Nav#####################*/
+/*########################################################*/
+
 header nav ul li {
 	padding-right: 30px;
 	float:left;
@@ -158,7 +155,9 @@ header nav ul {
 .nav_bg {
 	background-color: white;
 }
+/*########################################################*/
 /*#########################Shop_Prev####################*/
+/*########################################################*/
 .shop_prev ul li{
 	width: 33%;
 	float: right;
@@ -181,8 +180,10 @@ margin-right: 0px;
 	padding-top: 60px;
 	font-size: 20px;     
 }
-
+/*########################################################*/
 /*#########################process####################*/
+/*########################################################*/
+
 .process {
 	background-color:#2f3e3f; 
 }
@@ -190,8 +191,9 @@ margin-right: 0px;
 	padding-bottom: 50px;
 	padding-top: 50px;
 }
-
+/*########################################################*/
 /*#########################4 cols####################*/
+/*########################################################*/
 .sale ul li {
 	float: right;
 	width: 25%;
@@ -231,56 +233,9 @@ margin-right: 0px;
   font-size: 20px;
   padding-left: 16px;
 }
-/*#########################about####################*/
-.dude1 img{
-	border:5px solid #b4c828;
-	border-radius: 50%;
-	float:left;
-	margin-left: 65px;
-	position: relative;
-	z-index:10;
-	margin-top: -150px;
-}
-.dude2 img{
-	border:5px solid #b4c828;
-	border-radius: 50%;
-	float: right;
-	margin-right: 65px;
-	position: relative;
-	z-index:10;
-	margin-top: -150px;
-}
-.circle_2{
-
-	background: url('../Images/rundesdings_smal.png')no-repeat;
-  	display: inline-block;
-  	width: 220px;
-  	height: 45px;
-  	padding-top: 50px;
-}
-.green{
-	color:#b4c828;
-	display: inline;
-}
-.header_img_about{
-	position: relative;
-	z-index:5;
-}
-
-.col_1{
-	width:47%;
-	float: left;
-	padding-left: 5px;
-	padding-bottom: 20px;
-}
-.col_2{
-	width:47%;
-	float: right;
-	padding-left: 5px;
-	padding-bottom: 20px;
-}
-
+/*########################################################*/
 /*#########################footer####################*/
+/*########################################################*/
 footer{
 	background-image: url('../Images/footer_bg.png');
 	height: 350px;
@@ -350,7 +305,60 @@ margin-left:5px;
 .sozialicon .icon-pinterest:hover { 
 	background-position: -100px -51px; 
 }
-/*##############################checkout_ph1##################################*/
+/*########################################################*/
+/*#########################about####################*/
+/*########################################################*/
+.dude1 img{
+	border:5px solid #b4c828;
+	border-radius: 50%;
+	float:left;
+	margin-left: 65px;
+	position: relative;
+	z-index:10;
+	margin-top: -150px;
+}
+.dude2 img{
+	border:5px solid #b4c828;
+	border-radius: 50%;
+	float: right;
+	margin-right: 65px;
+	position: relative;
+	z-index:10;
+	margin-top: -150px;
+}
+.circle_2{
+
+	background: url('../Images/rundesdings_smal.png')no-repeat;
+  	display: inline-block;
+  	width: 220px;
+  	height: 45px;
+  	padding-top: 50px;
+}
+.green{
+	color:#b4c828;
+	display: inline;
+}
+.header_img_about{
+	position: relative;
+	z-index:5;
+}
+
+.col_1{
+	width:47%;
+	float: left;
+	padding-left: 5px;
+	padding-bottom: 20px;
+}
+.col_2{
+	width:47%;
+	float: right;
+	padding-left: 5px;
+	padding-bottom: 20px;
+}
+/*########################################################*/
+/*################checkout_ph1############################*/
+/*########################################################*/
+
 .checkout_header ul li{
 	float:left;
 }
@@ -403,11 +411,8 @@ h5 {
 	margin-right: 0px;
 	float:left;
 	margin-bottom: 15px;
-
 }
-
 button {
-	
 	background-color:#b4c828;
 	width: 185px;
 	height: 30px;
@@ -415,7 +420,6 @@ button {
 	margin-top: 10px;
 	font-size:18px;
 }
-
 input {
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -436,7 +440,6 @@ input {
 	height: 50px;
 	width: 50px; 
 }
-
 .shoppingcart_form ul li{
 	float:left;
 	margin-top:70px;
@@ -471,7 +474,9 @@ input {
 .shop_bill .button_sub{
 	margin-left: 29px;
 }
-/*##############################checkout_ph3##################################*/
+/*########################################################*/
+/*###############checkout_ph3############################*/
+/*########################################################*/
 .payment{
 	width: 280px;
 	font-size: 18px;
@@ -493,15 +498,8 @@ h6 {transform: rotate(-90deg);
 	margin-right: 40px;
 	color:#828c8c;
 }
-input[type="radio"]{
-	background-color: red;
-}
-
-
-/*##############################Helper##################################*/
-
-
-
+/*########################################################*/
+/*######################Helper############################*/
 .wrapper{
 	width: 960px;
 	margin-left: auto;
