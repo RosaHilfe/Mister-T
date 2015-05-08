@@ -413,12 +413,13 @@ h5 {
 	margin-bottom: 15px;
 }
 button {
-	background-color:#b4c828;
-	width: 185px;
-	height: 30px;
-	color:white;
-	margin-top: 10px;
-	font-size:18px;
+	background-color: #b4c828;
+  	width: 185px;
+  	height: 30px;
+  	color: white;
+  	margin-top: 10px;
+  	font-size: 16px;
+  	font-family: 'Exo 2', sans-serif;
 }
 input {
 	margin-top: 10px;
